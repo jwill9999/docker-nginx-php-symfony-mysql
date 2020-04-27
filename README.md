@@ -1,4 +1,4 @@
-# Nginx PHP MySQL [![Build Status](https://travis-ci.org/nanoninja/docker-nginx-php-mysql.svg?branch=master)](https://travis-ci.org/nanoninja/docker-nginx-php-mysql) [![GitHub version](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql.svg)](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql)
+# Nginx PHP  Symfony MySQL Docker boilerplate
 
 Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin.
 
@@ -44,7 +44,7 @@ All requisites should be available for your distribution. The most important are
 * [Docker](https://docs.docker.com/engine/installation/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 
-Check if `docker-compose` is already installed by entering the following command : 
+Check if `docker-compose` is already installed by entering the following command :
 
 ```sh
 which docker-compose
@@ -189,7 +189,7 @@ ___
 
 ## Run the application
 
-1. Copying the composer configuration file : 
+1. Copying the composer configuration file :
 
     ```sh
     cp web/app/composer.json.dist web/app/composer.json
